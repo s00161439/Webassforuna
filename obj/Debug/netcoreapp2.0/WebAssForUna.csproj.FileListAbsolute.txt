@@ -1,0 +1,11 @@
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.deps.json
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.runtimeconfig.json
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.runtimeconfig.dev.json
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.dll
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\bin\Debug\netcoreapp2.0\WebAssForUna.pdb
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.csprojAssemblyReference.cache
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.AssemblyInfo.cs
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.dll
+C:\Users\User\Downloads\2018-web-programming-1-SineadCurran-master\2018-web-programming-1-SineadCurran-master\WebAssForUna\obj\Debug\netcoreapp2.0\WebAssForUna.pdb

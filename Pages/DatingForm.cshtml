@@ -1,0 +1,99 @@
+﻿@page
+@model DatingFormModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@{
+}
+
+
+
+    <form method="post">
+
+        <div asp-validation-summary="All"></div>
+
+        <div>
+            <label asp-for=modelpage.FirstName></label>
+            <input asp-for=modelpage.FirstName />
+        </div>
+        <div>
+            <label asp-for=modelpage.LastName></label>
+            <input asp-for=modelpage.LastName />
+        </div>
+        <div>
+            <label asp-for=modelpage.Ppsn></label>
+            <input asp-for=modelpage.Ppsn />
+        </div>
+        <div>
+
+            <label asp-for=modelpage.DOB></label>
+            <input asp-for=modelpage.DOB>
+        </div>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <div>
+                <label class="radios">
+                    <input value="female" id="female" type="radio" asp-for=modelpage.Gender />
+                    Female
+                </label>
+            </div>
+            <div>
+                <label class="radios">
+                    <input value="male" id="male" type="radio" asp-for=modelpage.Gender />
+                    Male
+                </label>
+            </div>
+        </fieldset>
+        <div>
+            <label asp-for=modelpage.Height></label>
+            <input type="text" asp-for=modelpage.Height />
+        </div>
+        <div>
+            <label asp-for=modelpage.Email></label>
+            <input type="email" asp-for=modelpage.Email />
+        </div>
+        <div>
+            <label asp-for=modelpage.Phone></label>
+            <input type="tel" asp-for=modelpage.Phone />
+        </div>
+        <fieldset>
+            <legend>Relationship status</legend>
+            <div>
+                <label class="radios">
+                    <input value="nevermarried" id="nevermarried" type="radio" asp-for=modelpage.Rstatus />
+                    Never Married
+                </label>
+            </div>
+            <div>
+                <label class="radios">
+                    <input value="widowed" id="widowed" type="radio" asp-for=modelpage.Rstatus />
+                    Widowed
+                </label>
+            </div>
+            <div>
+                <label class="radios">
+                    <input value="divorced" id="divorced" type="radio" asp-for=modelpage.Rstatus />
+                    Divorced
+                </label>
+            </div>
+            <div>
+                <label class="radios">
+                    <input value="separated" id="separated" type="radio" asp-for=modelpage.Rstatus />
+                    Separated
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>What are your interests?</legend>
+          
+            @for (int i = 0; i < Model.modelpage.Interests.Length; i++)
+            {
+                <div id="interests">
+                    <input asp-for=modelpage.InterestsChoosen[i] />
+                    <label asp-for=modelpage.Interests[i] class="radios">@Model.modelpage.Interests[i]</label>
+                </div>
+            }
+        </fieldset>
+        <div> <button type="submit">Submit</button></div>
+    </form>
+    
